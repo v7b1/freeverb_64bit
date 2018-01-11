@@ -669,13 +669,13 @@ static void freeverb_mute(t_freeverb *x)
     
     for (i=0;i<numcombs;i++)
     {
-        memset(x->x_bufcombL[i], 0x0, x->x_combtuningL[i]*sizeof(t_float));
-        memset(x->x_bufcombR[i], 0x0, x->x_combtuningR[i]*sizeof(t_float));
+        memset(x->x_bufcombL[i], 0x0, x->x_combtuningL[i]*sizeof(double));
+        memset(x->x_bufcombR[i], 0x0, x->x_combtuningR[i]*sizeof(double));
     }
     for (i=0;i<numallpasses;i++)
     {
-        memset(x->x_bufallpassL[i], 0x0, x->x_allpasstuningL[i]*sizeof(t_float));
-        memset(x->x_bufallpassR[i], 0x0, x->x_allpasstuningR[i]*sizeof(t_float));
+        memset(x->x_bufallpassL[i], 0x0, x->x_allpasstuningL[i]*sizeof(double));
+        memset(x->x_bufallpassR[i], 0x0, x->x_allpasstuningR[i]*sizeof(double));
     }
 }
 
