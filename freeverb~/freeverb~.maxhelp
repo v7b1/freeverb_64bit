@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 311.0, 79.0, 889.0, 787.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,8 +45,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 27.0, 547.0, 24.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 27.0, 547.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -57,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 68.0, 547.0, 50.0, 22.0 ],
-					"style" : "",
 					"text" : "loop $1"
 				}
 
@@ -70,9 +69,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 409.5, 85.0, 220.0, 21.0 ],
-					"style" : "",
-					"text" : "64bit version by http://vboehm.net"
+					"patching_rect" : [ 409.5, 85.0, 224.0, 21.0 ],
+					"text" : "64bit version by https://vboehm.net"
 				}
 
 			}
@@ -85,7 +83,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 147.0, 458.0, 163.0, 21.0 ],
-					"style" : "",
 					"text" : "• play soundfile"
 				}
 
@@ -100,7 +97,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 428.0, 469.0, 36.0 ],
-					"style" : "",
 					"text" : "• Bypass signal uneffected when set to 1. Can be used to compare reverb signal with original signal and to save CPU power when freeverb~ is not used."
 				}
 
@@ -115,7 +111,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 302.0, 419.0, 63.0, 23.0 ],
-					"style" : "",
 					"text" : "bypass 1"
 				}
 
@@ -130,7 +125,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 236.0, 419.0, 63.0, 23.0 ],
-					"style" : "",
 					"text" : "bypass 0"
 				}
 
@@ -144,7 +138,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.0, 150.0, 134.0, 21.0 ],
-					"style" : "",
 					"text" : "• test signal on/off"
 				}
 
@@ -159,7 +152,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.0, 457.0, 19.0, 23.0 ],
-					"style" : "",
 					"text" : "0"
 				}
 
@@ -174,7 +166,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 457.0, 19.0, 23.0 ],
-					"style" : "",
 					"text" : "1"
 				}
 
@@ -189,7 +180,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 442.0, 45.0, 23.0 ],
-					"style" : "",
 					"text" : "open"
 				}
 
@@ -209,14 +199,13 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 5647.063946, "ticks" ],
+						"originallength" : [ 5647.063946000000215, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"style" : "",
 					"text" : "sfplay~ 2"
 				}
 
@@ -231,7 +220,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 165.0, 274.0, 31.0, 23.0 ],
-					"style" : "",
 					"text" : "0"
 				}
 
@@ -246,7 +234,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 130.0, 274.0, 31.0, 23.0 ],
-					"style" : "",
 					"text" : "1"
 				}
 
@@ -261,7 +248,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 134.0, 345.0, 39.0, 23.0 ],
-					"style" : "",
 					"text" : "*~ 0"
 				}
 
@@ -276,7 +262,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 47.0, 345.0, 39.0, 23.0 ],
-					"style" : "",
 					"text" : "*~ 0"
 				}
 
@@ -291,7 +276,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 79.0, 275.0, 31.0, 23.0 ],
-					"style" : "",
 					"text" : "0"
 				}
 
@@ -306,7 +290,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 44.0, 275.0, 31.0, 23.0 ],
-					"style" : "",
 					"text" : "1"
 				}
 
@@ -321,7 +304,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 147.0, 242.0, 61.0, 23.0 ],
-					"style" : "",
 					"text" : "pipe 120"
 				}
 
@@ -336,7 +318,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 63.0, 239.0, 61.0, 23.0 ],
-					"style" : "",
 					"text" : "pipe 200"
 				}
 
@@ -351,7 +332,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 47.0, 306.0, 77.0, 23.0 ],
-					"style" : "",
 					"text" : "cycle~ 400"
 				}
 
@@ -366,7 +346,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 130.0, 200.5, 73.0, 23.0 ],
-					"style" : "",
 					"text" : "metro 580"
 				}
 
@@ -381,7 +360,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 134.0, 305.0, 49.0, 23.0 ],
-					"style" : "",
 					"text" : "noise~"
 				}
 
@@ -394,8 +372,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 44.0, 143.5, 31.0, 31.0 ],
-					"style" : ""
+					"patching_rect" : [ 44.0, 143.5, 31.0, 31.0 ]
 				}
 
 			}
@@ -409,7 +386,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 44.0, 200.5, 73.0, 23.0 ],
-					"style" : "",
 					"text" : "metro 700"
 				}
 
@@ -425,7 +401,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 270.0, 570.0, 40.0, 23.0 ],
-					"style" : "",
 					"text" : "*~ 0."
 				}
 
@@ -445,7 +420,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 237.0, 238.0, 40.0, 23.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -461,7 +435,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 256.0, 63.0, 23.0 ],
-					"style" : "",
 					"text" : "width $1"
 				}
 
@@ -476,7 +449,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 238.0, 470.0, 36.0 ],
-					"style" : "",
 					"text" : "• The stereo width of the reverb, i.e. how much the ereverb part from left and right channel mix. Turning this to 1 (nearly) gives two seperate mono reverbs."
 				}
 
@@ -496,7 +468,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 237.0, 185.0, 40.0, 23.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -517,7 +488,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 237.0, 121.0, 40.0, 23.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -538,7 +508,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 238.0, 280.0, 40.0, 23.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -554,7 +523,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.0, 29.0, 112.0, 29.0 ],
-					"style" : "",
 					"text" : "freeverb~"
 				}
 
@@ -571,13 +539,14 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 7,
-							"minor" : 3,
-							"revision" : 4,
+							"major" : 8,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
+						"classnamespace" : "box",
 						"rect" : [ 59.0, 231.0, 378.0, 501.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -614,7 +583,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 23.0, 14.0, 105.0, 29.0 ],
-									"style" : "",
 									"text" : "freeverb~"
 								}
 
@@ -628,7 +596,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 132.0, 18.0, 209.0, 21.0 ],
-									"style" : "",
 									"text" : "Schroeder / Moorer reverb model"
 								}
 
@@ -642,7 +609,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 75.0, 261.0, 21.0 ],
-									"style" : "",
 									"text" : "by Olaf Matthes <olaf.matthes@gmx.de>"
 								}
 
@@ -657,7 +623,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 98.0, 294.0, 36.0 ],
-									"style" : "",
 									"text" : "based on Freeverb public domain code by Jezar at Dreampoint (http://www.dreampoint.co.uk)"
 								}
 
@@ -671,7 +636,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 23.0, 47.0, 196.0, 21.0 ],
-									"style" : "",
 									"text" : "Version 1.1, July 2003"
 								}
 
@@ -686,7 +650,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 135.0, 293.0, 66.0 ],
-									"style" : "",
 									"text" : "The freeverb~ object is a simple stereo implementation of the Schroeder / Moorer reverb model. It uses 8 comb filters per channel in parallel and 4 allpasses per channel in series."
 								}
 
@@ -700,8 +663,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 207.0, 257.0, 111.0 ],
-									"style" : "",
+									"patching_rect" : [ 21.0, 207.0, 259.0, 111.0 ],
 									"text" : "The allpasses \"smooth\" the sound. Adding more than four allpasses doesn't seem to add anything significant to the sound, and if you use less, the sound gets a bit \"grainy\". The filters on the right channel are slightly detuned compared to the left channel in order to create a stereo effect."
 								}
 
@@ -716,7 +678,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 21.0, 323.0, 250.0, 36.0 ],
-									"style" : "",
 									"text" : "Note that this version of Freeverb doesn't contain predelay, or any EQ."
 								}
 
@@ -730,8 +691,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 21.0, 363.0, 266.0, 66.0 ],
-									"style" : "",
+									"patching_rect" : [ 21.0, 363.0, 268.0, 66.0 ],
 									"text" : "Since V1.1 freeverb~'s source code is C++ for being able to inline the comb and allpass function calls. This reduced CPU usage on my G3 400MHz from 10% down to 7%."
 								}
 
@@ -745,11 +705,9 @@
 						"description" : "",
 						"digest" : "",
 						"globalpatchername" : "",
-						"style" : "",
 						"tags" : ""
 					}
 ,
-					"style" : "",
 					"text" : "p documentation"
 				}
 
@@ -763,7 +721,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.0, 56.0, 150.0, 21.0 ],
-					"style" : "",
 					"text" : "Version 1.2.2, (c) 2003"
 				}
 
@@ -778,7 +735,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 392.0, 469.0, 36.0 ],
-					"style" : "",
 					"text" : "• Start and stop \"freeze\" mode (off by default). If on, reverb tail gets freezed (sample and hold)."
 				}
 
@@ -792,7 +748,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 406.0, 536.0, 138.0, 21.0 ],
-					"style" : "",
 					"text" : "• output volume"
 				}
 
@@ -807,7 +762,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 390.0, 57.0, 23.0 ],
-					"style" : "",
 					"text" : "freeze 1"
 				}
 
@@ -822,7 +776,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 390.0, 57.0, 23.0 ],
-					"style" : "",
 					"text" : "freeze 0"
 				}
 
@@ -842,7 +795,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 360.0, 536.0, 40.0, 23.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
 				}
@@ -859,7 +811,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 224.0, 570.0, 40.0, 23.0 ],
-					"style" : "",
 					"text" : "*~ 0."
 				}
 
@@ -874,7 +825,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.0, 607.0, 62.0, 23.0 ],
-					"style" : "",
 					"text" : "dac~"
 				}
 
@@ -889,7 +839,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 238.0, 368.0, 37.0, 23.0 ],
-					"style" : "",
 					"text" : "print"
 				}
 
@@ -904,7 +853,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 344.0, 50.0, 23.0 ],
-					"style" : "",
 					"text" : "dry $1"
 				}
 
@@ -919,7 +867,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 238.0, 300.0, 52.0, 23.0 ],
-					"style" : "",
 					"text" : "wet $1"
 				}
 
@@ -934,7 +881,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 214.0, 77.0, 23.0 ],
-					"style" : "",
 					"text" : "damping $1"
 				}
 
@@ -949,7 +895,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 237.0, 152.0, 84.0, 23.0 ],
-					"style" : "",
 					"text" : "roomsize $1"
 				}
 
@@ -963,7 +908,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 88.0, 652.0, 164.0, 21.0 ],
-					"style" : "",
 					"text" : "• click here to start DSP."
 				}
 
@@ -976,8 +920,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 171.0, 554.0, 28.0, 28.0 ],
-					"style" : ""
+					"patching_rect" : [ 171.0, 554.0, 28.0, 28.0 ]
 				}
 
 			}
@@ -990,7 +933,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 409.5, 55.0, 108.0, 21.0 ],
-					"style" : "",
 					"text" : "by Olaf Matthes"
 				}
 
@@ -1006,7 +948,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 223.0, 512.0, 71.0, 23.0 ],
-					"style" : "",
 					"text" : "freeverb~"
 				}
 
@@ -1020,7 +961,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 408.5, 37.0, 266.0, 21.0 ],
-					"style" : "",
 					"text" : "Schroeder / Moorer reverb model"
 				}
 
@@ -1035,7 +975,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 121.0, 394.0, 51.0 ],
-					"style" : "",
 					"text" : "• The size of the room to be simulated: larger values result in a longer reverb tail. Values above 1. will result in feedback or 'room resonance' (i.e. the reverb getting louder and louder)."
 				}
 
@@ -1050,7 +989,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 177.0, 469.0, 51.0 ],
-					"style" : "",
 					"text" : "• The amount of damping of the room's surfaces. 1 means nearly no damping, resulting on a lot of refelction (long reverb), 1. means high damping of signals (short reverb)."
 				}
 
@@ -1064,7 +1002,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 286.0, 415.0, 21.0 ],
-					"style" : "",
 					"text" : "• The level of the wet (effect) signal as value between 0. and 1.0."
 				}
 
@@ -1079,7 +1016,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 316.0, 452.0, 51.0 ],
-					"style" : "",
 					"text" : "• The level of the dry (i.e. unprocessed or original) signal as value between 0. and 1.0. Note that wet and dry signal mix and thus can produce clipping when both are set to or near 1.0."
 				}
 
@@ -1093,7 +1029,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 369.0, 250.0, 21.0 ],
-					"style" : "",
 					"text" : "• Print the values of these parameters."
 				}
 
@@ -1113,7 +1048,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 237.0, 325.0, 40.0, 23.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"triscale" : 0.9
 				}

@@ -1,6 +1,6 @@
 # freeverb_64bit
 a 64-bit version of the original freeverb~ external by Olaf Matthes for maxmsp
-64-bit version by Volker Böhm - http://vboehm.net
+64-bit version by Volker Böhm - https://vboehm.net
 
 
 original README:
